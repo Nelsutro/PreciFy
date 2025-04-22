@@ -5,7 +5,7 @@ import Calculo from './pages/Calculo';
 const App = () => {
   return (
     <div>
-      <Calculo />
+      <Home />
     </div>
   );
 };
