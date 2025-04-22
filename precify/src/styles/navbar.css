@@ -1,0 +1,96 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f8f8f8; /* Light background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  nav img {
+    height: 40px; /* Adjust logo size as needed */
+  }
+  
+  nav > div { /* Container for the heading */
+    margin-left: 1rem;
+  }
+  
+  nav h1 {
+    color: #333; /* Dark heading text */
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-left: 1.5rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #555; /* Medium gray link text */
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #007bff; /* Blue on hover */
+  }
+  
+  nav ul li button.logout {
+    background-color: #dc3545; /* Red logout button */
+    color: white;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li button.logout:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  
+  nav .profile-icon {
+    margin-left: 1.5rem;
+  }
+  
+  nav .profile-icon img {
+    height: 30px; /* Adjust profile icon size */
+    width: 30px;
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Ensure image fills the circle */
+  }
+  
+  /* Responsive adjustments (optional) */
+  @media (max-width: 768px) {
+    nav {
+      padding: 1rem;
+    }
+  
+    nav ul {
+      display: none; /* Hide links on smaller screens initially */
+    }
+  
+    /* You might want to add a hamburger menu here to toggle the ul visibility */
+    /* For simplicity, we'll keep it hidden in this basic example */
+  
+    nav > div {
+      margin-left: 0.5rem;
+    }
+  
+    nav h1 {
+      font-size: 1.2rem;
+    }
+  
+    nav .profile-icon {
+      margin-left: 1rem;
+    }
+  }
