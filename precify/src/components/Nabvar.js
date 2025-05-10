@@ -15,7 +15,7 @@ export const MyRoutersComponent = () => {
     return (
         <BrowserRouter>
         <NavBar />
-               <Routes>
+            <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/Calculo" element={<Calculo />} />
                 <Route path="/Perfil" element={<Perfil />} />
